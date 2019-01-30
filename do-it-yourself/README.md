@@ -26,7 +26,8 @@ a) `More Items > Configuration > Customization > Generic Inquiry`. b) `System > 
 2. Repeat the steps above for other GIs that contain data you would like to import into Tableau.
 
 ##### NOTES:
-- Important: Find out from your system administrator the OData Feed URL for your Acumatica site. For instance, for an Acumatica portal https://abcorp.acumatica.com, the OData Feed URL might be something like https://abcorp.acumatica.com/odata/abcorp.<br/><br/>
+- **Important:** Find out from your system administrator the OData Feed URL for your Acumatica site.  
+For instance, for an Acumatica portal https://abcorp.acumatica.com, the OData Feed URL might be something like https://abcorp.acumatica.com/odata/abcorp.
 
 ### 2. Configure Tableau Desktop to import data from Acumatica:
 1. Install Tableau Desktop as needed:   
@@ -36,9 +37,10 @@ a) `More Items > Configuration > Customization > Generic Inquiry`. b) `System > 
    1.4.   MORE STUFF missing HERE
 1. On the `OData` prompt  
   - enter the `Server` name (Acumatica OData Feed URL - see the last step in section 1 above)
-  - enter the name of the first GI using the following format: https://abcorp.acumatica.com/odata/abcorp/AR-Invoices%20and%20Memos/       - Notes:
-    -- A forward slash was added before and after the the GI name.
-    -- Spaces have been replaced by "%20".
+  - enter the name of the first GI using the following format: https://abcorp.acumatica.com/odata/abcorp/AR-Invoices%20and%20Memos/.  
+  - Notes:  
+    + A forward slash was added before and after the the GI name.  
+    + Spaces have been replaced by "%20".
 1. Select `Authentication = Username and Password`
 1. Enter your credentials 
 1. Click `Sign In`.
