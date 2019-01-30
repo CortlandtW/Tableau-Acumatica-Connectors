@@ -36,21 +36,22 @@ For instance, for an Acumatica portal https://abcorp.acumatica.com, the OData Fe
    1.2.  Select a Tableau Desktop version to download (we recommend downloading the latest version).  
    1.3.    Download and run the Tableau installer.  
    1.4.   MORE STUFF missing HERE
-1. On the `OData` prompt  
+1. At the `OData` prompt  
   - enter the `Server` name (Acumatica OData Feed URL - see the last step in section 1 above)
   - enter the name of the first GI using the following format: https://abcorp.acumatica.com/odata/abcorp/AR-Invoices%20and%20Memos/.  
   - Notes:  
     + A forward slash was added before and after the the GI name.  
     + Spaces have been replaced by "%20".
-1. Select `Authentication = Username and Password`
+3. Select `Authentication = Username and Password`
 1. Enter your credentials 
 1. Click `Sign In`.
    - Validation may take several seconds.  
    - Once validatated You should  see a list of field names from your GI listed in Tableau.
-1.  Click the `Sheet 1` tab at the bottom of the page.  
-   -  This will trigger the data import process from Acumatica which might take a while depending on the size of GI's dataset. At the end of this process, you will see a snapshot of your GI's data, extracted into Tableau. 
+1.  Click the `Sheet 1` tab at the bottom of the page.   
+    +  Clicking the tab will trigger the data import process from Acumatica.  The process might take a while depending on the size of GI's dataset.
+    + At the end of the import process you will see a snapshot of your GI's data, extracted into Tableau. 
 ~~- You'll now see a blank Sheet 1 with your GI information on the left Data panel.~~
-1. Click `File > Save`.
+7. Click `File > Save`.
 
 ##### NOTES:
 - `File > Save` saves a Tableau workbook for future use.
