@@ -11,7 +11,8 @@ Procedures for other Acumatica and Tableau versions are identical or very simila
 ##### NOTES:
 - To use ready-to-go Tableau connectors with sample reports and dashboards, visit https://github.com/dataself/Tableau-Acumatica-Connectors/tree/master/ready-to-go-templates.
 
-==========
+-----
+
 ## Step by Step: Import Data from Acumatica Generic Inquires (GIs) into Tableau Desktop
 
 ### 1. Configure Acumatica to render data to external applications like Tableau: 
@@ -56,7 +57,7 @@ For instance, for an Acumatica portal https://abcorp.acumatica.com, the OData Fe
 - To take a new snapshot of your data, make Tableau Desktop the active window and  press `F5`.  
 - Search for Tableau documentation (see section 4) to learn how you can slice and dice your data and create reports and dashboards.
 
-================================
+-----
 
 ### 3. Further Considerations, Possibilities and Limitations:
 - The approach described here establishes a direct connection between Tableau and Acumatica. This connection retrieves data and stores it in a Tableau extract.  Every time you need to get new data from your Acumatica instance, you will need to refresh the extract.
