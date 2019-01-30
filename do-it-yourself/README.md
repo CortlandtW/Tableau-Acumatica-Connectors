@@ -79,4 +79,18 @@ For instance, for an Acumatica portal https://abcorp.acumatica.com, the OData Fe
 > - The word "Select", "Click" or perhaps "Navigate to" should be preferred over "find".
 > - All sequential instructions must be numbered.
 > - Prefer simple, active voice e.g.  "Setup" over "Setting up".
-> - 
+> - References to text strings that appear on the screen should be consistently displayed with a different font.  Here I've used the deliminited the literal text strings using the "backtick" character.
+
+> - GitHub markup has some screwy formatting rules and syntax. 
+> -- Some lines must be terminated with two blanks after the final visible character. 
+> For instance, to produce
+- Notes:  
+    + A forward slash was added before and after the the GI name.  
+    + Spaces have been replaced by "%20".
+    
+Requires the following markup language.    
+```
+- Notes:  <cr> 
+    + A forward slash was added before and after the the GI name.  <cr>  
+    + Spaces have been replaced by "%20".
+```    
